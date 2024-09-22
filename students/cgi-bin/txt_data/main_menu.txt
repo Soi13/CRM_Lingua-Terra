@@ -1,0 +1,9 @@
+<div id='cssmenu'>
+        <ul>
+         <li><a href='students_main.cgi?SID=$SID'><span>Главная</span></a></li>
+         <li><a href='students_personal.cgi?SID=$SID'><span>Данные студента</span></a></li> 
+         <li><a href='students_lessons_calendar.cgi?SID=$SID'><span>Календарь/Расписание</span></a></li>
+		 <li><a href='students_opl.cgi?SID=$SID'><span>Финансы/Оплаты</span></a></li>
+		 <li><a href='students_lessons_hw.cgi?SID=$SID'><span>Занятия и ДЗ</span></a></li>		 
+        </ul>
+</div>

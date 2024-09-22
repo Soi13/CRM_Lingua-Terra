@@ -1,0 +1,70 @@
+@charset "windows-1251";
+/* CSS Document */
+
+/* reset browser styles */
+   html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {	
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+.form-container {
+   border: 1px solid #f2e3d2;
+   background: #ebcaa4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#d9d5d1));
+   background: -webkit-linear-gradient(top, #ffffff, #d9d5d1);
+   background: -moz-linear-gradient(top, #ffffff, #d9d5d1);
+   background: -ms-linear-gradient(top, #ffffff, #d9d5d1);
+   background: -o-linear-gradient(top, #ffffff, #d9d5d1);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #d9d5d1 100%);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   height:190px;   
+   position:absolute;
+   left:50%;
+   margin-left:-150px;
+   top:50%;
+   margin-top:-150px;  
+   -webkit-box-shadow: 4px 6px 6px rgba(0,0,0, .75);
+   -moz-box-shadow: 4px 6px 6px rgba(0,0,0, .75);
+   -ms-box-shadow: 4px 6px 6px rgba(0,0,0, .75);   
+   -o-box-shadow: 4px 6px 6px rgba(0,0,0, .75);      
+   }
+   
+   
+.submit-container {
+   margin:8px 0;
+   text-align:center;
+   }
+
+   
+   p {
+       text-indent: 20px;
+	   text-align: justify;
+	   font-size:18px;
+	   color: red;
+   }

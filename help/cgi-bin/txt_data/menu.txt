@@ -1,0 +1,51 @@
+<!-- Pushy Menu -->
+        <nav class="pushy pushy-left" data-focus="#first-link">
+            <div class="pushy-content">
+                <ul>
+                    <li class="pushy-submenu">
+                        <button id="first-link">Секретариат</button>
+                        <ul>
+                            <li class="pushy-link"><a href="cgi-bin/help_main.cgi">Главная</a></li>
+                            <li class="pushy-link"><a href="#">Группы</a></li>
+                            <li class="pushy-link"><a href="#">Студенты</a></li>
+							<li class="pushy-link"><a href="#">Учителя</a></li>
+							<li class="pushy-link"><a href="#">Кабинеты</a></li>
+							<li class="pushy-link"><a href="#">Календарь</a></li>
+							<li class="pushy-link"><a href="#">Личный календарь</a></li>
+							<li class="pushy-link"><a href="#">СМС</a></li>
+							<li class="pushy-link"><a href="#">Документы</a></li>
+							<li class="pushy-link"><a href="#">Заявки</a></li>
+							<li class="pushy-link"><a href="#">Резерв</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Финансы</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Приходные ордера</a></li>
+                            <li class="pushy-link"><a href="#">Импорт файлов из банка</a></li>
+                            <li class="pushy-link"><a href="#">Экспорт файлов в банк</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Суперадмин</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Настройки</a></li>                            
+                        </ul>
+                    </li>
+                    <li class="pushy-submenu">
+                        <button>Отчеты</button>
+                        <ul>
+                            <li class="pushy-link"><a href="#">Должники на сегодня</a></li>
+                            <li class="pushy-link"><a href="#">Должники за месяц</a></li>
+                            <li class="pushy-link"><a href="#">План-Факт по филиалам (за период)</a></li>
+							<li class="pushy-link"><a href="#">Реальные поступления за месяц по филиалам</a></li>
+							<li class="pushy-link"><a href="#">Студенты/Преподаватели</a></li>
+							<li class="pushy-link"><a href="#">Студенты по возрасту</a></li>
+							<li class="pushy-link"><a href="#">Студенты/Договоры</a></li>
+                        </ul>
+                    </li>
+                    <li class="pushy-link"><a href="#">Е-журнал</a></li>
+                    <li class="pushy-link"><a href="#">Контроллер</a></li>
+                </ul>
+            </div>
+        </nav>

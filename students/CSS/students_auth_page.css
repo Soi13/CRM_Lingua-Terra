@@ -1,0 +1,205 @@
+@charset "windows-1251";
+/* CSS Document */
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {	
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #4E5869;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.err {
+    font:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#C00;
+	position:absolute;
+	left:50%;
+	top:80%;
+	margin-left:-150px;	
+	text-shadow:5px 2px 5px #000000; 
+	-webkit-animation-name: tada;
+	-moz-animation-name: tada;
+    animation-name: tada;
+	animation-duration: 1s;	 
+}
+
+
+.txt {
+	font:"Times New Roman", Times, serif;
+	font-size:36px;
+	color:#09F;
+	position:absolute;
+	left:50%;
+	margin-left:-130px;
+	text-shadow:5px 2px 5px #000000;
+
+}
+
+.form-container {
+   border: 1px solid #f2e3d2;
+   background: #ebcaa4;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f0993c), to(#ebcaa4));
+   background: -webkit-linear-gradient(top, #f0993c, #ebcaa4);
+   background: -moz-linear-gradient(top, #f0993c, #ebcaa4);
+   background: -ms-linear-gradient(top, #f0993c, #ebcaa4);
+   background: -o-linear-gradient(top, #f0993c, #ebcaa4);
+   background-image: -ms-linear-gradient(top, #f0993c 0%, #ebcaa4 100%);
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 1px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   font-family: 'Helvetica Neue',Helvetica,sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   height:250px;   
+   position:absolute;
+   left:50%;
+   margin-left:-150px;
+   top:50%;
+   margin-top:-150px;  
+   -webkit-box-shadow: 4px 6px 6px rgba(0,0,0, .75);
+   -moz-box-shadow: 4px 6px 6px rgba(0,0,0, .75);
+   -ms-box-shadow: 4px 6px 6px rgba(0,0,0, .75);   
+   -o-box-shadow: 4px 6px 6px rgba(0,0,0, .75);      
+   }
+   
+.form-field {
+   border: 1px solid #c9b7a2;
+   background: #ebdcca;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   color: #120e09;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px; 
+   }
+   
+.form-field:focus {
+   background: #fff;
+   color: #725129;
+   }
+   
+.form-container h2 {
+   text-shadow: #ffc5b0 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #725129;
+   text-shadow: #ffc5b0 0 1px 0;
+   }
+   
+.submit-container {
+   margin:8px 0;
+   text-align:center;
+   }
+   
+.submit-button {
+   border: 1px solid #686e62;
+   background: #888a86;
+   background: -webkit-gradient(linear, left top, left bottom, from(#dce8cf), to(#888a86));
+   background: -webkit-linear-gradient(top, #dce8cf, #888a86);
+   background: -moz-linear-gradient(top, #dce8cf, #888a86);
+   background: -ms-linear-gradient(top, #dce8cf, #888a86);
+   background: -o-linear-gradient(top, #dce8cf, #888a86);
+   background-image: -ms-linear-gradient(top, #dce8cf 0%, #888a86 100%);
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #97a18d 0 1px 0;
+   color: #252623;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+.submit-button:hover {
+   border: 1px solid #686e62;
+   text-shadow: #9fa697 0 1px 0;
+   background: #888a86;
+   background: -webkit-gradient(linear, left top, left bottom, from(#dce8cf), to(#888a86));
+   background: -webkit-linear-gradient(top, #dce8cf, #888a86);
+   background: -moz-linear-gradient(top, #dce8cf, #888a86);
+   background: -ms-linear-gradient(top, #dce8cf, #888a86);
+   background: -o-linear-gradient(top, #dce8cf, #888a86);
+   background-image: -ms-linear-gradient(top, #dce8cf 0%, #888a86 100%);
+   color: #705035;
+   }
+   
+.submit-button:active {
+   text-shadow: #9fa697 0 1px 0;
+   border: 1px solid #686e62;
+   background: #888a86;
+   background: -webkit-gradient(linear, left top, left bottom, from(#dce8cf), to(#888a86));
+   background: -webkit-linear-gradient(top, #dce8cf, #888a86);
+   background: -moz-linear-gradient(top, #dce8cf, #888a86);
+   background: -ms-linear-gradient(top, #dce8cf, #888a86);
+   background: -o-linear-gradient(top, #dce8cf, #888a86);
+   background-image: -ms-linear-gradient(top, #dce8cf 0%, #888a86 100%);
+   color: #705035;
+   }
+
+.header_teacher{	
+    font:"Times New Roman", Times, serif;
+	font-size:30px;
+	color:#afb2f4;
+	position:absolute;
+	left:45%;
+	top:10%;
+	margin-left:-150px;	
+	text-shadow:5px 5px 5px #000000; 
+}
+
+

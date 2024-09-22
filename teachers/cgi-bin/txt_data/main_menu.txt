@@ -1,0 +1,17 @@
+<div id='cssmenu'>
+        <ul>
+         <li><a href='teachers_main.cgi?SID=$SID'><span>Главная</span></a></li>
+         <li><a href='teachers_groups.cgi?SID=$SID'><span>Группы</span></a></li> 
+         <li><a href='teachers_lessons_calendar.cgi?SID=$SID'><span>Календарь/Расписание</span></a></li>
+		 <li><a href='teachers_personal_calendar.cgi?SID=$SID'><span>Личный календарь</span></a></li>
+         
+         <li class='has-sub'><a href='#'><span>Отчеты</span></a>
+            <ul>
+               <li><a href='reports_debts_4_today.cgi?SID=$SID'><span>Должники на сегодня</span></a></li>
+               <li><a href='reports_debts_month.cgi?SID=$SID'><span>Должники за месяц</span></a></li>               
+               <li class='last'><a href='reports_students_age.cgi?SID=$SID'><span>Студенты по возрасту</span></a></li>
+            </ul>
+         </li>
+		 <li><a href='support.cgi?SID=$SID'><span>Тех. поддержка</span></a></li>
+        </ul>
+</div>

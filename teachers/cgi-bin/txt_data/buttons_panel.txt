@@ -1,0 +1,6 @@
+ <div class="btn_div">
+        <a href="#" class="button" onClick="$('#w').window('open')">Сменить пароль</a>        
+        <a href="#" class="button">Сообщения</a>
+        <a href="#" class="button">Уведомления</a>
+        <a href="#" class="button" onClick="confirm1();">Выйти</a>
+        </div>
